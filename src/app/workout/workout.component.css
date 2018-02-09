@@ -1,11 +1,15 @@
 .maincard {
-    margin: 3rem .5rem;
+    margin: 1rem .5rem;
 }
 
 .mainbtn {
     padding: 0;
     width: 100%;
     border-radius: 0px;
+}
+
+.text-center {
+    margin: 0 auto;
 }
 
 .cardtext {
@@ -16,19 +20,23 @@
 .subtext1 {
     color: rgb(69, 84, 87);
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .subtext2 {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 .subtext3 {
     color: rgb(112, 122, 124);    
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 mat-card {
     background-color: rgb(248, 252, 255);
     border-radius: 0px;
+}
+
+mat-toolbar {
+    margin-bottom: 2.5rem;
 }
