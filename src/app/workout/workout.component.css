@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 3rem;
+}
+
 .maincard {
     margin: 1rem .5rem;
 }
@@ -8,8 +12,15 @@
     border-radius: 0px;
 }
 
-.text-center {
-    margin: 0 auto;
+.footer {
+    border-top: 1px solid rgb(112, 122, 124);
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    height: 3rem;
+    background-color: white;
+    color: rgb(117, 117, 117);
+    justify-content: space-between;
 }
 
 .cardtext {
@@ -28,7 +39,7 @@
 }
 
 .subtext3 {
-    color: rgb(112, 122, 124);    
+    color: rgb(112, 122, 124);
     font-size: .7rem;
 }
 
@@ -39,4 +50,23 @@ mat-card {
 
 mat-toolbar {
     margin-bottom: 2.5rem;
+    padding: 0 8px;
+}
+
+.example-fill-remaining-space {
+    flex: 1 1 auto;
+}
+
+.caption {
+    color: rgb(117, 117, 117);
+    font-size: 11px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    z-index: 1;
+}
+
+.footer .mat-button {
+    line-height: 18px;
 }

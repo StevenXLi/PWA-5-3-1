@@ -3,4 +3,6 @@
 
 body.out {
     margin: 0;
+    height: auto;
+    background-color: #F5F5F5;
 }

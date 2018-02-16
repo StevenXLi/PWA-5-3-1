@@ -1,5 +1,13 @@
-<mat-toolbar color='primary'>
-    <span class='text-center'>hello</span>
+<mat-toolbar id="toolbar" color='primary'>
+    <button mat-icon-button>
+        <mat-icon>settings</mat-icon>
+    </button>
+    <span class="example-fill-remaining-space"></span>
+    <span>5 x 3 x 1</span>
+    <span class="example-fill-remaining-space"></span>
+    <button mat-icon-button>
+        <mat-icon>add</mat-icon>
+    </button>
 </mat-toolbar>
 
 <body>
@@ -29,3 +37,18 @@
         </button>
     </div>
 </body>
+
+<mat-toolbar class="footer">
+    <button mat-button>
+        <mat-icon>stars</mat-icon>
+        <div class="caption">Workouts</div>
+    </button>
+    <button mat-button>
+        <mat-icon>schedule</mat-icon>
+        <div class="caption">history</div>
+    </button>
+    <button mat-button>
+        <mat-icon>timeline</mat-icon>
+        <div class="caption">graphs</div>
+    </button>
+</mat-toolbar>
