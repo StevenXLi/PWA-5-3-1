@@ -1,8 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 body.out {
-    margin: 0;
-    height: auto;
-    background-color: #F5F5F5;
+  margin: 0;
+  height: auto;
+  background-color: #F5F5F5;
+}
+
+mat-toolbar .mat-form-field-infix {
+  font-size: 18px;
+  width: 106px;
+  padding-left: 10px;
+}
+
+mat-toolbar .mat-input-underline {
+  display: none;
 }

@@ -1,0 +1,19 @@
+<h2 mat-dialog-title>Settings</h2>
+<mat-dialog-content>
+  <mat-form-field color="primary">
+    <input matInput type="number" placeholder="Squats (lbs)" [(ngModel)]="data.squat">
+  </mat-form-field>
+  <mat-form-field color="primary">
+    <input matInput type="number" placeholder="Bench (lbs)" [(ngModel)]="data.bench">
+  </mat-form-field>
+  <mat-form-field color="primary">
+    <input matInput type="number" placeholder="Deadlift (lbs)" [(ngModel)]="data.deadlift">
+  </mat-form-field>
+  <mat-form-field color="primary">
+    <input matInput type="number" placeholder="OH Press (lbs)" [(ngModel)]="data.press">
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-button [mat-dialog-close]="data">Save</button>
+  <button mat-button (click)="onCancel()">Cancel</button>
+</mat-dialog-actions>

@@ -1,0 +1,23 @@
+mat-form-field.dateAdd {
+  padding-top: 10px;
+  display: flex;
+}
+
+mat-toolbar {
+  padding: 0;
+}
+
+.title-center {
+  margin: 0 auto;
+}
+
+.hidSpacer {
+  margin-left: auto;
+  flex: 1;
+  visibility: hidden;
+}
+
+.butAlign {
+  margin-right: auto;
+  flex: 1;
+}
