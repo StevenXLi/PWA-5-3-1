@@ -4,7 +4,8 @@ mat-form-field.dateAdd {
 }
 
 mat-toolbar {
-  padding: 0;
+  margin-bottom: 2rem;
+  padding: 0 8px;
 }
 
 .title-center {
@@ -20,4 +21,17 @@ mat-toolbar {
 .butAlign {
   margin-right: auto;
   flex: 1;
+}
+
+body {
+  margin-bottom: 3rem;
+}
+
+.maincard {
+  margin: 1rem .5rem;
+}
+
+mat-card {
+  background-color: rgb(248, 252, 255);
+  border-radius: 0px;
 }
